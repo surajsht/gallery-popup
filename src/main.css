@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-content-container {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  translate: -50% -50%;
+  height: 80vh;
+  width: 600px;
+}
+
+.modal-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
